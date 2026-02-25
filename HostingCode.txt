@@ -1,0 +1,45 @@
+
+Yuvanya@LAPTOP-95R4S3E0 MINGW64 /e/JavaPractice
+$ git init
+Initialized empty Git repository in E:/JavaPractice/.git/
+
+Yuvanya@LAPTOP-95R4S3E0 MINGW64 /e/JavaPractice (main)
+$ git add .
+
+Yuvanya@LAPTOP-95R4S3E0 MINGW64 /e/JavaPractice (main)
+$ git commit -m "Initial commit"
+[main (root-commit) de86b13] Initial commit
+ 6 files changed, 161 insertions(+)
+ create mode 100644 Hello.class
+ create mode 100644 Hello.java
+ create mode 100644 Resort.class
+ create mode 100644 Solution.class
+ create mode 100644 Solution.java
+ create mode 100644 Student.class
+
+Yuvanya@LAPTOP-95R4S3E0 MINGW64 /e/JavaPractice (main)
+$ git remote add origin https://github.com/Yuvanya-Jayasankar/GitAssignment.git     
+Yuvanya@LAPTOP-95R4S3E0 MINGW64 /e/JavaPractice (main)
+$ git branch -M main
+
+Yuvanya@LAPTOP-95R4S3E0 MINGW64 /e/JavaPractice (main)
+$ git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 4.67 KiB | 1.17 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Yuvanya-Jayasankar/GitAssignment.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Yuvanya@LAPTOP-95R4S3E0 MINGW64 /e/JavaPractice (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Yuvanya@LAPTOP-95R4S3E0 MINGW64 /e/JavaPractice (main)
+$
